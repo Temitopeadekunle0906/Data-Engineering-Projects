@@ -8,8 +8,8 @@ The new product will be tested in the five locations where the assembly factorie
 To design this model, the data science team have requested weather metrics data from the five cities in which the product will be initially tested. 
 Weather metrics data is required to build an AI model for the vehicle that can address and react accordingly to various weather conditions as picked 
 up from sensors in the vehicle.The weather data must include but not limited to:
-Date: Date which the data is captured from.
-Max. temp(C): Maximum daily temperature in celsius
+* Date: Date which the data is captured from.
+* Max. temp(C): Maximum daily temperature in celsius
 Avg. temp(C): Average daily temperature in celsius
 Min. temp(C): Minimum daily temperature in celsius
 Wind speed: Wind speed in kph
