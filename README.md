@@ -10,13 +10,13 @@ Weather metrics data is required to build an AI model for the vehicle that can a
 up from sensors in the vehicle.The weather data must include but not limited to:
 * Date: Date which the data is captured from.
 * Max. temp(C): Maximum daily temperature in celsius
-Avg. temp(C): Average daily temperature in celsius
-Min. temp(C): Minimum daily temperature in celsius
-Wind speed: Wind speed in kph
-Rainfall: Daily rainfall measure in millimeters
-Visibility: Daily average optical clarity or visibility measured in kms
-Humidity: This refers to the daily average humidity 
-Description: Short descrition of the daily weather
+* Avg. temp(C): Average daily temperature in celsius
+* Min. temp(C): Minimum daily temperature in celsius
+* Wind speed: Wind speed in kph
+* Rainfall: Daily rainfall measure in millimeters
+* Visibility: Daily average optical clarity or visibility measured in kms
+* Humidity: This refers to the daily average humidity 
+* Description: Short descrition of the daily weather
 
 You have been tasked to prepare a dataset fetched from an external API, processed and stored in a PostgreSQL database. The API provides JSON data that 
 you will need to parse and transform before inserting it into the database. You will also need to write scripts to perform CRUD operations on the database, 
